@@ -30,7 +30,40 @@ const questions = [
           {name:'GNU',value:'[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'},
           {name:'ISC' ,value:'[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'},
           {name:'MIT' ,value:'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'}
-        ]
+        ],
+        default: "Javascript"
+      },
+      {
+        type: 'checkbox',
+        name: 'programType',
+        message: "What was the project built with?",
+        choices: [
+        {name:'Python' , value:'[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)'},
+        {name:'Go' , value:'[![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](https://go.dev/)'},
+        {name:'Rust' , value:'[![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg)](https://www.rust-lang.org/)'},
+        {name:'Markdown', value:'[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)'},
+        {name:'Javascript' , value:'[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)'}
+    ]
+        },
+      {
+        type: 'input',
+        name: 'installation',
+        message: "What steps are required to install your project?",
+      },
+      {
+        type: 'input',
+        name: 'contributionGuidelines',
+        message: "Please add your contribution guidelines",
+      },
+      {
+        type: 'input',
+        name: 'usageInformation',
+        message: "Please add information on the usage of your project",
+      },
+      {
+        type: 'input',
+        name: 'testInstructions',
+        message: "Please add your test instructions",
       },
       {
         type: 'input',
