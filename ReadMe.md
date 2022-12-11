@@ -32,6 +32,6 @@ None needed.
 
 ## Contact 
 
-[Personal Github](github.com/aqazza)
+[Personal Github (github.com/aqazza)]
 
 anasqazza@gmail.com 
