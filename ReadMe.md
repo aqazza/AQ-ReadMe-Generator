@@ -1,6 +1,6 @@
-# testing
+# README.md
   ## License 
- [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
  ## Table of Contents
  - [Description](#description)
@@ -10,34 +10,28 @@
  - [Test-Instructions](#testInstructions)
  - [Contact](#email)
  
-## Application
- Readme Generator
+ ## Application
+Professional README Generator
 
 ## Description
-  asdsdfgvsdfsdafsadfsadfdafdsFasdfds
-fdsa
-fads
-fdsa
-fdsa
-fsd
-afdsa
+  This application creates a clear and reliable README. It prompts the user with a variety of questions involving the Description, Installation, Usage, Contribution, Testing and Questions.
 
 ## Installation
-sadfsd
+The user must install node.js then clone this repository into your code. Then, you must "npm i" in the terminal and link an inquirer package.
 
 
   
 ## Usage 
-dsfsdaf
+Follow instructions at the top.
 
 ## Contribution Guidelines
-sadfsadf
+N/A
 
  ## Test Instructions
-dsafasf
+None needed.
 
 ## Contact 
 
-asdfas
+github.com/aqazza
 
-asdfsaf@gm,asd 
+anasqazza@gmail.com 
