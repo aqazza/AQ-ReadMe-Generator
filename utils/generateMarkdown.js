@@ -15,6 +15,7 @@ function generateMarkdown(data) {
   return `# ${data.fileName}
   ## License 
  ${data.license}
+ ${data.programType}
 
  ## Table of Contents
  - [Description](#description)
