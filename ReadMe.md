@@ -18,8 +18,8 @@ Professional README Generator
 ## Description
   This application creates a clear and reliable README. It prompts the user with a variety of questions involving the Description, Installation, Usage, Contribution, Testing and Questions.
 
-  
-
+  ![Alt text](README-GENERATOR.png)
+![Alt text](README-GENERATOR2.png)
 ## Installation
 The user must install node.js then clone this repository into your code. Then, you must "npm i" in the terminal and link an inquirer package.
 
