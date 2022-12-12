@@ -3,6 +3,7 @@ const  fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
+// Added the list of questions I want the README generator to take in
 const questions = [
     {
         type: 'input',
@@ -78,6 +79,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+// made the writeToFile sync so that it not only creates files, but also overwrite or append to the data on the existing file
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data, 'utf8');
 }
